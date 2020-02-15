@@ -1,0 +1,15 @@
+li#beforeListElement::before {
+    content: '>> ';
+}
+li#afterListElement::before {
+    content: ' << ';
+}
+li#beforeListElement::selection {
+    background-color: rgb(100%, 38.8%, 27.8%)
+}
+a:hover {
+    color: green;
+}
+a:visited {
+    color: peru;
+}
